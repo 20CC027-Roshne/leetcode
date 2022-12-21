@@ -1,4 +1,5 @@
-public void rotate(int[][] matrix) {
+class Solution {
+    public void rotate(int[][] matrix) {
 for(int i=0,p=matrix.length-1;i<matrix.length/2;i++)
 {
 for(int j=0;j<matrix[0].length;j++)
@@ -25,4 +26,5 @@ p--;
             
         }
     }
+}
 }
